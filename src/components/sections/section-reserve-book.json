@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_sections_section_reserve_books",
+  "info": {
+    "displayName": "Section: reserve book"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "default": "Join the Longevity Revolution"
+    },
+    "subtitle": {
+      "type": "string",
+      "default": "Coming in 2025"
+    },
+    "description": {
+      "type": "customField",
+      "options": {
+        "output": "HTML",
+        "preset": "standard"
+      },
+      "customField": "plugin::ckeditor.CKEditor"
+    }
+  }
+}

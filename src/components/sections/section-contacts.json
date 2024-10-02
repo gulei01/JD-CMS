@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_sections_section_contacts",
+  "info": {
+    "displayName": "Section: Contacts"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "default": "Wanna get in touch?"
+    },
+    "description": {
+      "type": "text",
+      "default": "Have a question or want to collaborate? Reach out to Jasmina directly. Whether you’re looking to discuss partnerships, media inquiries, or simply connect, we’re here to help you take the next step."
+    },
+    "successMessage": {
+      "type": "text",
+      "default": "Thank you so much for your message! Jasmina will get back to you soon. Have more to say? Feel free to write another message below! "
+    }
+  }
+}

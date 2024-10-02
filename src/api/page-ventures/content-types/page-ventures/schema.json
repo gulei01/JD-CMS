@@ -1,0 +1,50 @@
+{
+  "kind": "singleType",
+  "collectionName": "page_venturess",
+  "info": {
+    "singularName": "page-ventures",
+    "pluralName": "page-venturess",
+    "displayName": "Page: Ventures",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.seo"
+    },
+    "intro": {
+      "displayName": "Section: ventures intro",
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.section-ventures-intro"
+    },
+    "playbook": {
+      "displayName": "Section: ventures playbook",
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.section-ventures-playbook"
+    },
+    "handSection": {
+      "displayName": "Section: Ventures Hand section",
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.section-ventures-hand-section"
+    },
+    "final": {
+      "displayName": "Ventures: Final section",
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.ventures-final-section"
+    },
+    "popupCommunity": {
+      "type": "component",
+      "repeatable": false,
+      "component": "molecules.popup"
+    }
+  }
+}

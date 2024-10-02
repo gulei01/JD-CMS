@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_molecules_video_news_posts",
+  "info": {
+    "displayName": "Video/News Post",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "isVideo": {
+      "type": "boolean"
+    },
+    "description": {
+      "type": "text"
+    },
+    "link": {
+      "type": "string",
+      "required": true
+    },
+    "media": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "videos"
+      ]
+    },
+    "category": {
+      "type": "string"
+    }
+  }
+}

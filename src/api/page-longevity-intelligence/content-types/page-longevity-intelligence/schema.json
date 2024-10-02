@@ -1,0 +1,66 @@
+{
+  "kind": "singleType",
+  "collectionName": "page_longevity_intelligences",
+  "info": {
+    "singularName": "page-longevity-intelligence",
+    "pluralName": "page-longevity-intelligences",
+    "displayName": "Page: Longevity Intelligence",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.seo"
+    },
+    "intro": {
+      "displayName": "Section: Longevity intro",
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.section-longevity-intro"
+    },
+    "longevityKey": {
+      "displayName": "Section: Longevity Key",
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.section-longevity-key"
+    },
+    "floatingCards": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.section-home-longevity-intelligence"
+    },
+    "keySkills": {
+      "displayName": "Section: Key Skills",
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.section-key-skills"
+    },
+    "reserveBook": {
+      "displayName": "Section: reserve book",
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.section-reserve-book"
+    },
+    "final": {
+      "displayName": "Section: Longevity final",
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.section-longevity-final"
+    },
+    "popupCommunity": {
+      "type": "component",
+      "repeatable": false,
+      "component": "molecules.popup"
+    },
+    "popupReserve": {
+      "type": "component",
+      "repeatable": false,
+      "component": "molecules.popup"
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_sections_section_key_skills",
+  "info": {
+    "displayName": "Section: Key Skills"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "default": "Key Skills"
+    },
+    "label": {
+      "type": "string",
+      "default": "Across these domains include:"
+    },
+    "subtitle": {
+      "type": "string",
+      "default": "Why it matters?"
+    },
+    "description": {
+      "type": "text",
+      "default": "In this era of exponential change, Longevity Intelligence is your guide to not just surviving, but flourishing. It’s about optimizing your potential in a future where the boundaries of human capability are constantly expanding."
+    },
+    "content": {
+      "type": "customField",
+      "options": {
+        "output": "HTML",
+        "preset": "standard"
+      },
+      "customField": "plugin::ckeditor.CKEditor"
+    }
+  }
+}

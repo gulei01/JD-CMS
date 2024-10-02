@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_sections_section_about_finals",
+  "info": {
+    "displayName": "Section: About final"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "default": "Join Jasmina in shaping the future"
+    },
+    "description": {
+      "type": "text",
+      "default": "Jasmina’s voice cuts through the noise, making complex ideas accessible and inspiring action. Book her for your next event, podcast, or feature, and bring a fresh perspective to the conversation."
+    },
+    "questions": {
+      "type": "component",
+      "repeatable": true,
+      "component": "molecules.question-answer"
+    }
+  }
+}

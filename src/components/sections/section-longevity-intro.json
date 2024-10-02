@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_sections_section_longevity_intros",
+  "info": {
+    "displayName": "Section: Longevity intro"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "default": "Longevity Intelligence"
+    },
+    "description": {
+      "type": "text",
+      "default": "Join us in shaping this exciting future. Build your Longevity Intelligence today and be part of the coming renaissance in human capability."
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "kind": "singleType",
+  "collectionName": "page_longevity_libraries",
+  "info": {
+    "singularName": "page-longevity-library",
+    "pluralName": "page-longevity-libraries",
+    "displayName": "Explore: Longevity Library",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.seo"
+    },
+    "title": {
+      "type": "string",
+      "default": "The  Longevity Library"
+    },
+    "description": {
+      "type": "text",
+      "default": "A handpicked collection of resources designed to equip you with the knowledge and strategies to lead a healthier, more vibrant life."
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title"
+    },
+    "body": {
+      "type": "dynamiczone",
+      "components": [
+        "sections.section-library-quotes",
+        "sections.section-library-people",
+        "sections.section-library-news-media",
+        "sections.section-library-book-tv"
+      ]
+    }
+  }
+}

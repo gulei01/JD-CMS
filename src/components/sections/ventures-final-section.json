@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_sections_ventures_final_sections",
+  "info": {
+    "displayName": "Ventures: Final section"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "text",
+      "default": "Join Jasmina to transform lives"
+    },
+    "description": {
+      "type": "text",
+      "default": "Join Jasmina in transforming lives through Longevity Intelligence and create a healthier, more vibrant future for all!"
+    }
+  }
+}

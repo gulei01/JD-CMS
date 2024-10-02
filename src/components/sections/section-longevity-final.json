@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_sections_section_longevity_finals",
+  "info": {
+    "displayName": "Section: Longevity final"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "default": "Your Ticket to the Future"
+    },
+    "subtitle": {
+      "type": "text",
+      "default": "We’re offering a limited number of VIP tickets to the Longevity Intelligence launch party!"
+    },
+    "description": {
+      "type": "text",
+      "default": "Mingle with the author, connect with like-minded visionaries, and be among the first to explore the transformative world of Longevity Intelligence. "
+    },
+    "additionalDescription": {
+      "type": "text",
+      "default": "Get your tickets now—the future is waiting, and so is your seat at the table!"
+    }
+  }
+}

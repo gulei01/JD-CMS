@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_sections_section_marquee_lines",
+  "info": {
+    "displayName": "Section: Marquee line"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string",
+      "default": "A conversation with Jasmina: an intimate chat on science, sports, investing,  and the art of transformation."
+    }
+  }
+}

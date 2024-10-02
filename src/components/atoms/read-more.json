@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_atoms_read_mores",
+  "info": {
+    "displayName": "Read more",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "default": "Learn More"
+    },
+    "link": {
+      "type": "string"
+    }
+  }
+}

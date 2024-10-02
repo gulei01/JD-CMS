@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_atoms_atoms_icon_texts",
+  "info": {
+    "displayName": "Icon/Text",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "icon": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}

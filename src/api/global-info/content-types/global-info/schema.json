@@ -1,0 +1,43 @@
+{
+  "kind": "singleType",
+  "collectionName": "global_infos",
+  "info": {
+    "singularName": "global-info",
+    "pluralName": "global-infos",
+    "displayName": "Utils: Global Info",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.seo"
+    },
+    "copyright": {
+      "type": "string",
+      "default": "©Design Education Series® [year_now]"
+    },
+    "contactEmail": {
+      "type": "email",
+      "default": "hello@ayocin.com"
+    },
+    "footerTitle": {
+      "type": "string",
+      "default": "Wanna get in touch?"
+    },
+    "footerDescription": {
+      "type": "text",
+      "default": "Stay connected. Reach out with questions, opportunities, or to learn more about our journey."
+    },
+    "contacts": {
+      "displayName": "Section: Contacts",
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.section-contacts"
+    }
+  }
+}

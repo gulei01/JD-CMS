@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_sections_section_longevity_keys",
+  "info": {
+    "displayName": "Section: Longevity Key"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "text"
+    },
+    "textBlocks": {
+      "type": "component",
+      "repeatable": true,
+      "component": "atoms.title-ck-editor"
+    }
+  }
+}

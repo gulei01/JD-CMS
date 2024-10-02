@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_molecules_social_lists",
+  "info": {
+    "displayName": "Social List",
+    "icon": "bulletList"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "default": "Social Media:"
+    },
+    "items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "atoms.social-media-list-item"
+    }
+  }
+}

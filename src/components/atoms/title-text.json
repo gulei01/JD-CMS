@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_atoms_title_texts",
+  "info": {
+    "displayName": "Title/Text"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "text": {
+      "type": "text"
+    }
+  }
+}

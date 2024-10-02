@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_sections_section_ventures_playbooks",
+  "info": {
+    "displayName": "Section: ventures playbook"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "default": "Jasmina's playbook  for change"
+    },
+    "subtitle": {
+      "type": "text",
+      "default": "Guided by her concept of \"prosperity pathways,\" Jasmina employs a three-pronged approach to drive transformative change:"
+    },
+    "blocks": {
+      "type": "component",
+      "repeatable": true,
+      "component": "atoms.title-ck-editor"
+    }
+  }
+}

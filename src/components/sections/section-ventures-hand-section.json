@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_sections_section_ventures_hand_sections",
+  "info": {
+    "displayName": "Section: Ventures Hand section",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "text",
+      "default": "This is Jasmina’s invitation to you — to not just imagine, but to actively shape the future we want to live in."
+    },
+    "subtitle": {
+      "type": "text",
+      "default": "Longevity Intelligence[tm] is at the heart of Jasmina's work"
+    },
+    "description": {
+      "type": "customField",
+      "options": {
+        "output": "HTML",
+        "preset": "standard"
+      },
+      "customField": "plugin::ckeditor.CKEditor"
+    }
+  }
+}

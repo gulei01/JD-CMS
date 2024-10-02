@@ -1,0 +1,44 @@
+{
+  "kind": "singleType",
+  "collectionName": "page_explores",
+  "info": {
+    "singularName": "page-explore",
+    "pluralName": "page-explores",
+    "displayName": "Explore: Intelligence Report",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.seo"
+    },
+    "featuredPost": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::posts.posts"
+    },
+    "quotes": {
+      "displayName": "Quote",
+      "type": "component",
+      "repeatable": true,
+      "component": "molecules.quote"
+    },
+    "title": {
+      "type": "string",
+      "default": "The  intelligence report "
+    },
+    "description": {
+      "type": "text",
+      "default": "Uncover the latest insights and breakthroughs in longevity with The Intelligence Report — our dynamic blog that explores the fusion of health, technology, and personal growth."
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title"
+    }
+  }
+}

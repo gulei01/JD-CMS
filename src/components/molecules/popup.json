@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_molecules_popups",
+  "info": {
+    "displayName": "Popup"
+  },
+  "options": {},
+  "attributes": {
+    "titleLeft": {
+      "type": "string",
+      "default": "Join our"
+    },
+    "titleRight": {
+      "type": "string",
+      "default": "community"
+    },
+    "description": {
+      "type": "text",
+      "default": "Join us in shaping this exciting future. Build your Longevity Intelligence today and be part of the coming renaissance in human capability."
+    },
+    "successMessage": {
+      "type": "text",
+      "default": "Thank you for joining our community. A welcome email is on its way from Jasmina to your inbox."
+    },
+    "buttonTitle": {
+      "type": "string",
+      "default": "Join now"
+    }
+  }
+}

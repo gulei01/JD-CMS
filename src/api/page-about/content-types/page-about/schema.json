@@ -1,0 +1,48 @@
+{
+  "kind": "singleType",
+  "collectionName": "page_abouts",
+  "info": {
+    "singularName": "page-about",
+    "pluralName": "page-abouts",
+    "displayName": "Page: About",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.seo"
+    },
+    "aboutIntro": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.section-about-intro"
+    },
+    "largeTitleWithQuestions": {
+      "displayName": "Section: About large title with questions",
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.section-about-large-title-with-questions"
+    },
+    "imagesGrid": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.section-about-images-grid"
+    },
+    "marquee": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.section-marquee-line"
+    },
+    "final": {
+      "displayName": "Section: About final",
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.section-about-final"
+    }
+  }
+}

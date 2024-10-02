@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_molecules_quotes",
+  "info": {
+    "displayName": "Quote"
+  },
+  "options": {},
+  "attributes": {
+    "quote": {
+      "type": "text"
+    },
+    "cite": {
+      "type": "string"
+    }
+  }
+}

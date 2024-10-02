@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_sections_section_about_large_title_with_questions",
+  "info": {
+    "displayName": "Section: About large title with questions"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "default": "A Conversation with Jasmina"
+    },
+    "questions": {
+      "displayName": "Question/Answer",
+      "type": "component",
+      "repeatable": true,
+      "component": "molecules.question-answer"
+    },
+    "subtitle": {
+      "type": "text"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_sections_section_about_images_grids",
+  "info": {
+    "displayName": "Section: About images grid"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "default": "Dynamic. Thought-provoking. Unapologetically bold."
+    },
+    "images": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "questions": {
+      "type": "component",
+      "repeatable": true,
+      "component": "molecules.question-answer"
+    }
+  }
+}

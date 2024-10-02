@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_sections_section_home_longevity_intelligences",
+  "info": {
+    "displayName": "Section: Home Longevity Intelligence",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "default": "Explore the Future with Jasmina "
+    },
+    "subtitle": {
+      "type": "text",
+      "default": "This is Jasmina’s invitation to you — to not just imagine, but to actively shape the future  we want to live in."
+    },
+    "floatingBlocks": {
+      "type": "component",
+      "repeatable": true,
+      "component": "atoms.image-title-content-button"
+    }
+  }
+}

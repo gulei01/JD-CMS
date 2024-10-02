@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_sections_section_ventures_intros",
+  "info": {
+    "displayName": "Section: ventures intro"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "default": "J. Ventures"
+    },
+    "subtitle": {
+      "type": "text",
+      "default": "Elevating human potential through technology and education"
+    },
+    "description": {
+      "type": "customField",
+      "options": {
+        "output": "HTML",
+        "preset": "standard"
+      },
+      "customField": "plugin::ckeditor.CKEditor"
+    }
+  }
+}

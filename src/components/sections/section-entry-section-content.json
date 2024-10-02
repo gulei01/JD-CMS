@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_sections_section_entry_section_contents",
+  "info": {
+    "displayName": "Section: Entry section content",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "text"
+    },
+    "label": {
+      "type": "string"
+    },
+    "description": {
+      "type": "customField",
+      "options": {
+        "output": "HTML",
+        "preset": "standard"
+      },
+      "customField": "plugin::ckeditor.CKEditor"
+    },
+    "buttons": {
+      "type": "component",
+      "repeatable": true,
+      "component": "atoms.read-more"
+    }
+  }
+}

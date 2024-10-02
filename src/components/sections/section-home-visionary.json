@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_sections_section_home_visionaries",
+  "info": {
+    "displayName": "Section: Home Visionary",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "description": {
+      "type": "text",
+      "default": "This is Jasmina’s invitation to you — to not just imagine, but to actively shape the future we want to live in. Here’s how you’ll do it together:"
+    },
+    "contentBlocks": {
+      "displayName": "Image/CKEditor",
+      "type": "component",
+      "repeatable": true,
+      "component": "atoms.image-ck-editor"
+    },
+    "hoverBlocks": {
+      "type": "component",
+      "repeatable": true,
+      "component": "atoms.title-text"
+    }
+  }
+}

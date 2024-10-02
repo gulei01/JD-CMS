@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_molecules_fa_qs",
+  "info": {
+    "displayName": "FAQs"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "default": "FAQ"
+    },
+    "items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "atoms.faq"
+    }
+  }
+}

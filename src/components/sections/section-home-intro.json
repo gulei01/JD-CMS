@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_sections_section_home_intros",
+  "info": {
+    "displayName": "Section: Home Intro",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "default": "Jasmina Denner",
+      "maxLength": 20
+    },
+    "description": {
+      "type": "text",
+      "default": "Join her at the edge where health meets technology, and human potential is redefined."
+    },
+    "subtitle": {
+      "type": "text",
+      "default": "Jasmina isn’t just observing the future — she’s shaping it. With a life that’s anything but conventional, she’s merging science, technology, and ambition to unlock what’s possible."
+    },
+    "contentBlocks": {
+      "type": "component",
+      "repeatable": true,
+      "component": "atoms.title-ck-editor"
+    }
+  }
+}
