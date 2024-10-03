@@ -10752,6 +10752,11 @@ strapi-plugin-duplicate-button@^1.1.14:
   resolved "https://registry.yarnpkg.com/strapi-plugin-duplicate-button/-/strapi-plugin-duplicate-button-1.3.16.tgz#532089a77fad5ee565052a17c7f6188741e8ec4d"
   integrity sha512-dLiYdsJVQJi6BmLSe8SLKunexpwW5HbV20EEvAccb2REO0nXwFlnsNzXvooWYVBjVSx8YJmwlauwZ0Btea96Cg==
 
+strapi-plugin-image-optimizer@^2.2.1:
+  version "2.2.1"
+  resolved "https://registry.yarnpkg.com/strapi-plugin-image-optimizer/-/strapi-plugin-image-optimizer-2.2.1.tgz#f6e7a7d6081b78b35c3ed8884c7317bd04e96cd4"
+  integrity sha512-zflvTam9I0NRrdq3Yn/1fRXfZL+1gkrUf/r37Tnixjpw6LZiLxbOS6Xok23Gb42Q4LdmNjfwkmGnMRurYUg0ow==
+
 strapi-plugin-multi-select@^1.2.3:
   version "1.2.3"
   resolved "https://registry.yarnpkg.com/strapi-plugin-multi-select/-/strapi-plugin-multi-select-1.2.3.tgz#7ee98bb005c4f550ea0ce77d892f93a88dd7ba63"

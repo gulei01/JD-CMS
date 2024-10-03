@@ -1201,6 +1201,7 @@ export interface ApiPageExplorePageExplore extends Schema.SingleType {
     description: Attribute.Text &
       Attribute.DefaultTo<'Uncover the latest insights and breakthroughs in longevity with The Intelligence Report \u2014 our dynamic blog that explores the fusion of health, technology, and personal growth.'>;
     slug: Attribute.UID<'api::page-explore.page-explore', 'title'>;
+    fullWidthPosts: Attribute.Boolean & Attribute.DefaultTo<false>;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;
@@ -1288,6 +1289,7 @@ export interface ApiPageLongevityLibraryPageLongevityLibrary
         'sections.section-library-book-tv'
       ]
     >;
+    finalSection: Attribute.Component<'sections.section-report-footer'>;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;

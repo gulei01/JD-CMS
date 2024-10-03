@@ -126,6 +126,26 @@ export interface SectionsSectionReserveBook extends Schema.Component {
   };
 }
 
+export interface SectionsSectionReportFooter extends Schema.Component {
+  collectionName: 'components_sections_section_report_footers';
+  info: {
+    displayName: 'Section: Report footer';
+    description: '';
+  };
+  attributes: {
+    title: Attribute.String &
+      Attribute.DefaultTo<'Ready to be part of something extraordinary?'>;
+    largeDescription: Attribute.Text &
+      Attribute.DefaultTo<"The Longevity Intelligence revolution is here, and it's transforming how we approach health, wellness, and human potential. Our growing global network is at the forefront of this exciting shift, driving innovation and sparking crucial conversations about our collective future.">;
+    subtitle: Attribute.String &
+      Attribute.DefaultTo<"Here's how you can engage:">;
+    descriptionSocials: Attribute.Text &
+      Attribute.DefaultTo<'Dive into thought-provoking discussions on our social platforms.'>;
+    ctaReport: Attribute.Component<'molecules.text-page-relation'>;
+    ctaContact: Attribute.Component<'molecules.text-page-relation'>;
+  };
+}
+
 export interface SectionsSectionMarqueeLine extends Schema.Component {
   collectionName: 'components_sections_section_marquee_lines';
   info: {
@@ -411,6 +431,24 @@ export interface MoleculesVideoNewsPost extends Schema.Component {
   };
 }
 
+export interface MoleculesTextPageRelation extends Schema.Component {
+  collectionName: 'components_molecules_text_page_relations';
+  info: {
+    displayName: 'Text/Page relation';
+    description: '';
+  };
+  attributes: {
+    description: Attribute.Text &
+      Attribute.DefaultTo<'Stay informed with our cutting-edge Intelligence Report:'>;
+    page: Attribute.Relation<
+      'molecules.text-page-relation',
+      'oneToOne',
+      'plugin::navigation.audience'
+    >;
+    buttonLabel: Attribute.String;
+  };
+}
+
 export interface MoleculesSocialList extends Schema.Component {
   collectionName: 'components_molecules_social_lists';
   info: {
@@ -536,12 +574,14 @@ export interface AtomsPeople extends Schema.Component {
   collectionName: 'components_atoms_people';
   info: {
     displayName: 'People';
+    description: '';
   };
   attributes: {
     title: Attribute.String;
     description: Attribute.Text;
     image: Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
     website: Attribute.String;
+    websiteLabel: Attribute.String & Attribute.DefaultTo<'Website'>;
   };
 }
 
@@ -563,6 +603,12 @@ export interface AtomsImageTitleContentButton extends Schema.Component {
         }
       >;
     buttonLink: Attribute.String;
+    buttonLabel: Attribute.String;
+    page: Attribute.Relation<
+      'atoms.image-title-content-button',
+      'oneToOne',
+      'plugin::navigation.audience'
+    >;
   };
 }
 
@@ -659,6 +705,7 @@ declare module '@strapi/types' {
       'sections.section-ventures-intro': SectionsSectionVenturesIntro;
       'sections.section-ventures-hand-section': SectionsSectionVenturesHandSection;
       'sections.section-reserve-book': SectionsSectionReserveBook;
+      'sections.section-report-footer': SectionsSectionReportFooter;
       'sections.section-marquee-line': SectionsSectionMarqueeLine;
       'sections.section-longevity-key': SectionsSectionLongevityKey;
       'sections.section-longevity-intro': SectionsSectionLongevityIntro;
@@ -678,6 +725,7 @@ declare module '@strapi/types' {
       'sections.section-about-images-grid': SectionsSectionAboutImagesGrid;
       'sections.section-about-final': SectionsSectionAboutFinal;
       'molecules.video-news-post': MoleculesVideoNewsPost;
+      'molecules.text-page-relation': MoleculesTextPageRelation;
       'molecules.social-list': MoleculesSocialList;
       'molecules.quote': MoleculesQuote;
       'molecules.question-answer': MoleculesQuestionAnswer;

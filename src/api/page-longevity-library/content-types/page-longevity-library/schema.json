@@ -37,6 +37,11 @@
         "sections.section-library-news-media",
         "sections.section-library-book-tv"
       ]
+    },
+    "finalSection": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.section-report-footer"
     }
   }
 }

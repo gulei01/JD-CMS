@@ -33,9 +33,10 @@ module.exports = ({ env }) => {
     },
     upload: {
       config: {
-        breakpoints: {
-          small: 750,
-        },
+        quality: 100,
+        // breakpoints: {
+        //   small: 750,
+        // },
         providerOptions: {
           localServer: {
             maxage: 31536000 * 4,

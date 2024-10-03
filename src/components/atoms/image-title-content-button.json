@@ -27,6 +27,14 @@
     },
     "buttonLink": {
       "type": "string"
+    },
+    "buttonLabel": {
+      "type": "string"
+    },
+    "page": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "plugin::navigation.audience"
     }
   }
 }

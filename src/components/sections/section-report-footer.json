@@ -1,0 +1,37 @@
+{
+  "collectionName": "components_sections_section_report_footers",
+  "info": {
+    "displayName": "Section: Report footer",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "default": "Ready to be part of something extraordinary?"
+    },
+    "largeDescription": {
+      "type": "text",
+      "default": "The Longevity Intelligence revolution is here, and it's transforming how we approach health, wellness, and human potential. Our growing global network is at the forefront of this exciting shift, driving innovation and sparking crucial conversations about our collective future."
+    },
+    "subtitle": {
+      "type": "string",
+      "default": "Here's how you can engage:"
+    },
+    "descriptionSocials": {
+      "type": "text",
+      "default": "Dive into thought-provoking discussions on our social platforms."
+    },
+    "ctaReport": {
+      "displayName": "Text/Page relation",
+      "type": "component",
+      "repeatable": false,
+      "component": "molecules.text-page-relation"
+    },
+    "ctaContact": {
+      "type": "component",
+      "repeatable": false,
+      "component": "molecules.text-page-relation"
+    }
+  }
+}

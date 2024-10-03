@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_molecules_text_page_relations",
+  "info": {
+    "displayName": "Text/Page relation",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "description": {
+      "type": "text",
+      "default": "Stay informed with our cutting-edge Intelligence Report:"
+    },
+    "page": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "plugin::navigation.audience"
+    },
+    "buttonLabel": {
+      "type": "string"
+    }
+  }
+}
