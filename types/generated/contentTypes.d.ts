@@ -1154,12 +1154,14 @@ export interface ApiPageContactsPageContacts extends Schema.SingleType {
     singularName: 'page-contacts';
     pluralName: 'page-contactss';
     displayName: 'Page: Contacts';
+    description: '';
   };
   options: {
     draftAndPublish: true;
   };
   attributes: {
     seo: Attribute.Component<'shared.seo'>;
+    info: Attribute.Component<'sections.section-contacts'>;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;
