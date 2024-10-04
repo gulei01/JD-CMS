@@ -1,17 +1,22 @@
 {
   "collectionName": "components_sections_section_library_people",
   "info": {
-    "displayName": "Section: Library People"
+    "displayName": "Section: Library People",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "title": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "blocks": {
       "type": "component",
       "repeatable": true,
       "component": "atoms.people"
+    },
+    "titleStickyPanel": {
+      "type": "string"
     }
   }
 }

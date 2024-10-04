@@ -1,17 +1,22 @@
 {
   "collectionName": "components_sections_section_library_quotes",
   "info": {
-    "displayName": "Section: Library Quotes"
+    "displayName": "Section: Library Quotes",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "title": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "blocks": {
       "type": "component",
       "repeatable": true,
       "component": "molecules.quote"
+    },
+    "titleStickyPanel": {
+      "type": "string"
     }
   }
 }

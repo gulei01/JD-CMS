@@ -1,17 +1,22 @@
 {
   "collectionName": "components_sections_section_library_news_medias",
   "info": {
-    "displayName": "Section: Library News/Media"
+    "displayName": "Section: Library News/Media",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "title": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "blocks": {
       "type": "component",
       "repeatable": true,
       "component": "molecules.video-news-post"
+    },
+    "titleStickyPanel": {
+      "type": "string"
     }
   }
 }

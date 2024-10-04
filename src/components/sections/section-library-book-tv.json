@@ -1,17 +1,22 @@
 {
   "collectionName": "components_sections_section_library_book_tvs",
   "info": {
-    "displayName": "Section: Library Book/TV"
+    "displayName": "Section: Library Book/TV",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "title": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "blocks": {
       "type": "component",
       "repeatable": true,
       "component": "atoms.book-tv"
+    },
+    "titleStickyPanel": {
+      "type": "string"
     }
   }
 }

@@ -200,10 +200,12 @@ export interface SectionsSectionLibraryQuotes extends Schema.Component {
   collectionName: 'components_sections_section_library_quotes';
   info: {
     displayName: 'Section: Library Quotes';
+    description: '';
   };
   attributes: {
-    title: Attribute.String;
+    title: Attribute.String & Attribute.Required;
     blocks: Attribute.Component<'molecules.quote', true>;
+    titleStickyPanel: Attribute.String;
   };
 }
 
@@ -211,10 +213,12 @@ export interface SectionsSectionLibraryPeople extends Schema.Component {
   collectionName: 'components_sections_section_library_people';
   info: {
     displayName: 'Section: Library People';
+    description: '';
   };
   attributes: {
-    title: Attribute.String;
+    title: Attribute.String & Attribute.Required;
     blocks: Attribute.Component<'atoms.people', true>;
+    titleStickyPanel: Attribute.String;
   };
 }
 
@@ -222,10 +226,12 @@ export interface SectionsSectionLibraryNewsMedia extends Schema.Component {
   collectionName: 'components_sections_section_library_news_medias';
   info: {
     displayName: 'Section: Library News/Media';
+    description: '';
   };
   attributes: {
-    title: Attribute.String;
+    title: Attribute.String & Attribute.Required;
     blocks: Attribute.Component<'molecules.video-news-post', true>;
+    titleStickyPanel: Attribute.String;
   };
 }
 
@@ -233,10 +239,12 @@ export interface SectionsSectionLibraryBookTv extends Schema.Component {
   collectionName: 'components_sections_section_library_book_tvs';
   info: {
     displayName: 'Section: Library Book/TV';
+    description: '';
   };
   attributes: {
-    title: Attribute.String;
+    title: Attribute.String & Attribute.Required;
     blocks: Attribute.Component<'atoms.book-tv', true>;
+    titleStickyPanel: Attribute.String;
   };
 }
 
